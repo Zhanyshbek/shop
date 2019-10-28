@@ -102,7 +102,11 @@ nav{
     padding: 15px 32px;
 }
 .header-offers .btn{
-    width: 240px;
+    position: absolute;
+    width: 277px;
+    height: 61px;
+    left: 191px;
+    top: 67px;
 }
 .header-item{
     display: flex;
@@ -236,10 +240,38 @@ nav{
     left: 22px;
 }
 
-
 #new-models{
+    position: relative;
+    height: 700px;
+}
+#new-models a{
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 700px;
+    top: 521px;
+    background: #D7B399;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+}
+#new-model{
     padding: 1px 25px 300px;
     z-index: 2;
+    position: relative;
+}
+#new-model a{
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 700px;
+    top: 521px;
+    background: #D7B399;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
 }
 .text{
     text-align: center;
@@ -320,7 +352,7 @@ nav{
     text-align: center;
     color: #D7B399;
 }
-.btn-primary {
+.btn{
     text-transform: uppercase;
     font-weight: normal;
     font-size: 16px;
@@ -378,28 +410,27 @@ nav{
 }
 
 footer{
-    display: flex;
-    width: 1920px;
-    height: 311px;
-    left: 0;
-    top: 3836px;
     background: #212121;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
 }
-.col-lg-2-logo{
-    margin-left: -330px;
-    width: 150px;
+footer .container{
+    display: flex;
+    justify-content: space-between;
 }
-footer .row{
-display: flex;
-    justify-content:space-between;
-    align-items: center;
-
+.footer-container{
+    display: flex;
 }
-footer .col-lg-2{
-    margin-left: 200px;
+.footer-logo{
+    width: 208px;
+}
+.footer-social{
+    display: flex;
+    margin-left: 206px;
+}
+footer ul{
+    margin-right: 65px;
 }
 footer h5{
     font-family: Montserrat;
@@ -411,6 +442,8 @@ footer h5{
 footer a{
     font-size: 10px;
     line-height: 22px;
+
+
 }
 footer p{
     font-family: Montserrat;
